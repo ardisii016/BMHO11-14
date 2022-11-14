@@ -1,0 +1,148 @@
+:root{
+    --lightblue: #72c9e0;
+    --darkblue: #41b0b0;
+    --white: #fff;
+    --black: #000000;
+    --gray: #ede4e4;
+    --box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+/*SUMMARY PDF STARTS HERE*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: var(--gray)
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem
+}
+
+.card-img-actions {
+    position: relative
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 17px
+}
+
+.invoice-color {
+    color: red !important
+}
+
+.card-header {
+    padding: .9375rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .02);
+    border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+a {
+    text-decoration: none !important
+}
+
+.btn-light {
+    color: #333;
+    background-color: #fafafa;
+    border-color: #ddd
+}
+
+.header-elements-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap
+}
+.btn{
+    margin-top: 10px;
+}
+
+.col-md-12{
+    display: flex;
+    flex-direction: column;
+}
+.ml-auto{
+    padding-top: 50px;
+    padding-right: 100px;
+}
+.pull-left{
+    margin-top: 7px;
+}
+.txt{
+    font-weight: bold;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .wmin-md-400 {
+        min-width: 100px !important
+    }
+}
+@media (min-width: 350px) {
+    .row{
+    max-width: 109%;
+    }
+    
+}
+@media (max-width: 360px) {
+    .ml-auto .text-muted{
+        position: absolute;
+        left: 20px;
+        top: 475px;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--lightblue);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: var(--darkblue);
+}
+
+.btn-labeled>b {
+    position: absolute;
+    top: -1px;
+    background-color: var(--darkblue);
+    display: block;
+    line-height: 1;
+    padding: .62503rem
+}
